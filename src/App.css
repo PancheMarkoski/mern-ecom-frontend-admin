@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.notification-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px; /* You can adjust the size */
+  height: 19px; /* Make sure height and width are equal */
+  border-radius: 50%; /* This makes it a perfect circle */
+  position: absolute; /* Adjust position as needed */
+  top: 0;
+  right: 0;
+  font-size: 12px; /* Adjust font size as needed */
+  background-color: #ffc107; /* Bootstrap warning color, you can customize it */
+}
+
+.my-form-container {
+  width: 50vw; /* Adjust the viewport width percentage as needed */
+  max-width: 360px; /* Optionally, set a max-width */
+}
